@@ -1,6 +1,7 @@
 # CSC-510
 
 [![DOI](https://zenodo.org/badge/529681582.svg)](https://zenodo.org/badge/latestdoi/529681582)
+![Build Status](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
 
 This is the code repo for Software Engineering group 40, a group of 6 people - Srilekha, Chetana, Shreya, Sarika, Rahul, Shubham.
 
