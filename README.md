@@ -1,5 +1,7 @@
 # CSC-510
 
+[![DOI](https://zenodo.org/badge/529681582.svg)](https://zenodo.org/badge/latestdoi/529681582)
+
 This is the code repo for Software Engineering group 40, a group of 6 people - Srilekha, Chetana, Shreya, Sarika, Rahul, Shubham.
 
 The goal of this repo is to understand the significance and learning to use the following files in a Code Repository:
