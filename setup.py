@@ -4,7 +4,7 @@ setup(
     name='SE Project',
     version='1.0',
     description='Created project for Software Engineering Course',
-    author='HomeWork Grp (Shreya, Srilekha, Sarika, Chetana, Rahul, Shubham)',
+    author='HomeWork Grp 40(Shreya, Srilekha, Sarika, Chetana, Rahul, Shubham)',
     author_email='cchetan2@ncsu.edu',
     zip_safe=False,
     classifiers=(
