@@ -1,8 +1,4 @@
 #Calculator -- performs four basic operations - Addition, Subtraction, Multiplication and Division
-
-import sys
-
-Class Calculator():
   
   # ADD function
   def add(num1, num2):
