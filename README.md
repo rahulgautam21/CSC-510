@@ -5,9 +5,9 @@
 [![GitHub Release](https://img.shields.io/github/release/rahulgautam21/CSC-510.svg)](https://github.com/rahulgautam21/CSC-510/releases)
 [![GitHub Repo Size](https://img.shields.io/github/repo-size/rahulgautam21/CSC-510.svg)](https://img.shields.io/github/repo-size/rahulgautam21/CSC-510.svg)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
-![GitHub contributors](https://img.shields.io/github/contributors/rahulgautam21/CSC-510)(https://github.com/rahulgautam21/CSC-510/graphs/contributors)
-![Open Issues](https://img.shields.io/github/issues/rahulgautam21/CSC-510)(https://github.com/rahulgautam21/CSC-510/issues)
-![Pull Requests](https://img.shields.io/github/issues-pr/rahulgautam21/CSC-510)(https://github.com/rahulgautam21/CSC-510/pulls)
+[![GitHub contributors](https://img.shields.io/github/contributors/rahulgautam21/CSC-510)](https://github.com/rahulgautam21/CSC-510/graphs/contributors)
+[![Open Issues](https://img.shields.io/github/issues/rahulgautam21/CSC-510)](https://github.com/rahulgautam21/CSC-510/issues)
+[![Pull Requests](https://img.shields.io/github/issues-pr/rahulgautam21/CSC-510)](https://github.com/rahulgautam21/CSC-510/pulls)
 ![Supports Python](https://img.shields.io/pypi/pyversions/pytest)
 
 
