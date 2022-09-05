@@ -1,14 +1,11 @@
-from sourcecode.Calculator import *
+from src.main import *
+import unittest
 
-    # test methods for add, subtract, multiply and divide
-def test_add():
-    assert add(3,4) == 7
-
-def test_subtract(self):
-    assert subtract(5,2) == 3
-
-def test_multiply(self):
-    assert multiply(5,2) == 8
-
-def test_divide(self):
-    assert divide(6,2) == 4
+class TestsForLua(unittest.TestCase):
+        
+    def test_the(self):
+        global the
+        # Mimicking that we add something to cmd dict
+        dict = {'seperator':';'}
+        the = cli(dict)
+        self.assertEqual(the,dict)
