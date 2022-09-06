@@ -11,7 +11,7 @@ class Sym():
     self.c = c
 
   # at = c
-  # name = s 
+  # name = s
 
 
   def add (self, v):
@@ -25,7 +25,7 @@ class Sym():
 
     return self._has
 
-    
+
   def mid (self, mode = 0, most = -1):
     # most = -1
 
@@ -45,6 +45,6 @@ class Sym():
     for (_, n) in self._has.items():
       # e = e - fun(n / self.n)
       p = n/sum
-      e += p * math.log(p,2)
+      e += p * math.log(p, 2)
 
-    return -e 
+    return -e
