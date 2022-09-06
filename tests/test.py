@@ -10,7 +10,7 @@ class TestsForLua(unittest.TestCase):
         the = cli(dict)
         self.assertEqual(the,dict)
 		
-	def sym()
+	def test_sym()
 		sym = Sym()
 		list = ["a","a","a","a","b","b","c"]
 		for x in list:
