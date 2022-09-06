@@ -1,12 +1,11 @@
 import math
 from collections import OrderedDict
-
-the = {}
-
+from src.main import the
+import random
 
 def per(t, p=0):
     p = math.floor(((p if p != 0 else 0.5)*len(t)) + 0.5 )
-    return t[math.max(1, math.min(len(t), p))]
+    return t[max(0, min(len(t)-1, p))]
 
 
 class Num:
@@ -27,23 +26,22 @@ class Num:
         if not self.isSorted:
             self._has = OrderedDict(sorted(self._has.items()))
             self.isSorted = True
-            return self._has
+        return self._has
 
     def add(self, v, pos = 0):
         if v != "?":
             self.n += 1
-            self.lo = math.min(v, self.lo)
-            self.hi = math.max(v, self.hi)
+            self.lo = min(v, self.lo)
+            self.hi = max(v, self.hi)
 
             if len(self._has) < the["nums"]:
-                pos = 1 + len(self._has)
+                pos = len(self._has)
 
-            elif math.random() < the["nums"] / self.n:
-                pos = math.random(len(self._has))
+            elif random.random() < the["nums"] / self.n:
+                pos = random.randint(0,len(self._has) - 1)
 
-            if pos:
-                self.isSorted = False
-                self._has[pos] = int(v)
+            self.isSorted = False
+            self._has[pos] = int(v)
 
     def div(self, a = None):
         a = self.nums()
