@@ -3,8 +3,8 @@ from collections import OrderedDict
 from src.main import the
 import random
 
-def per(t, p=0):
-    p = math.floor(((p if p != 0 else 0.5)*len(t)) + 0.5 )
+def per(t, p=0.5):
+    p = math.floor((p*len(t)) + 0.5)
     return t[max(0, min(len(t)-1, p))]
 
 
