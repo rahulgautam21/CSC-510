@@ -1,4 +1,4 @@
-from sys import argv
+from sys import argv,exit
 import argparse
 
 the={}
@@ -13,14 +13,36 @@ def cli(args_dict):
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser()
-    parser.add_argument('-e', '--eg', help="start-up example", default="nothing", type=str)
-    parser.add_argument('-d', '--dump', help="on test failure, exit with stack dump", default=False, type=str)
-    parser.add_argument('-f', '--file', help="file with csv data", default="../data/auto93.csv", type=str)
-    parser.add_argument('-n', '--nums', help="numbers to keep", default=512, type=int)
-    parser.add_argument('-s', '--seed', help="random number seed", default=10019, type=int)
-    parser.add_argument('-S', '--seperator', help="feild seperator", default=",", type=str)
-    args = parser.parse_args()
-    args_dict = vars(args)
+    the['eg'] = 'nothing'
+    the['dump'] = False
+    the['csvFilePath'] = '../data/data1.csv'
+    the['nums'] = 512
+    the['seed'] = 10019
+    the['seperator'] = ',]]'
+    args_dict = {}
+    for index, opt in enumerate(argv):
+        if opt in ("-h","--help"):
+            print( '''
+                OPTIONS:
+                -e  --eg        start-up example                      = nothing
+                -d  --dump      on test failure, exit with stack dump = false
+                -f  --file      file with csv data                    = ../data/auto93.csv
+                -h  --help      show help                             = false
+                -n  --nums      number of nums to keep                = 512
+                -s  --seed      random number seed                    = 10019
+                -S  --seperator feild seperator                       = , ]]
+            ''')
+            exit()
+        if opt in ("-e", "--eg"):
+            args_dict["eg"] = argv[index+1].strip()
+        if opt in ("-d", "--dump"):
+            args_dict["dump"] = True if argv[index+1].strip().lower() == 'true' else False
+        if opt in ("-f", "--file"):
+            args_dict["file"] = argv[index+1].strip()
+        if opt in ("-n", "--nums"):
+            args_dict["nums"] = int(argv[index+1].strip())
+        if opt in ("-s", "--seed"):
+            args_dict["seed"] = int(argv[index+1].strip())
+        if opt in ("-S", "--seperator"):
+            args_dict["seperator"] = argv[index+1].strip()
     the = cli(args_dict)
-    print(the)
