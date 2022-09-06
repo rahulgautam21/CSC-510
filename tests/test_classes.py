@@ -36,9 +36,9 @@ def test_num(self):
 	assert div>30.5 and div<32
 
 def test_bignum(self):
-    the['nums']=32
     num = Num()
-    for i in range(1,1001):
-        num.add(i)
+	the['nums']=32
+    for i in range(1000):
+        num.add(i+1)
     print(num.nums())
     assert len(num._has)==32
