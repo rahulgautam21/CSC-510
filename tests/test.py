@@ -20,4 +20,4 @@ class TestsForLua(unittest.TestCase):
 		entropy = Math.round(entropy,3)
 		print("mid="+mode)
 		print("div="+entropy)
-		self.assertEqual()
+		assert mode=="a" and 1.37 <= entropy and entropy <=1.38
