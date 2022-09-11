@@ -26,7 +26,7 @@ class TestsForLua(unittest.TestCase):
 
 	def test_num(self):
 		num = Num()
-		the['nums'] = 32
+		the['nums'] = 512
 		for i in range(100):
 			num.add(i+1)
 		mid = num.mid()
