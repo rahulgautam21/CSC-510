@@ -1,7 +1,7 @@
 from sys import argv,exit
 import argparse
 
-the={}
+the={"nums":512}
 
 # Update dict with args dict.
 # Technically we do not need this function as we are handling this with defaults

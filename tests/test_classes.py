@@ -1,7 +1,7 @@
 from src.main import *
 from src.sym import Sym
 from src.num import Num
-from src.main import the 
+from src.main import the
 import unittest
 
 class TestsForLua(unittest.TestCase):
@@ -30,9 +30,9 @@ class TestsForLua(unittest.TestCase):
 			num.add(i+1)
 		mid = num.mid()
 		div = num.div()
-		assert 1 == 1
-		# assert mid>=50 and mid<=52
-		# assert div>30.5 and div<32
+		#assert 1 == 1
+		assert mid>=50 and mid<=52
+		assert div>30.5 and div<32
 
 	def test_bignum(self):
 		num = Num()
