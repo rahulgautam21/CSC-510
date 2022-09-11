@@ -26,11 +26,12 @@ class TestsForLua(unittest.TestCase):
 
 	def test_num(self):
 		num = Num()
+		the['nums'] = 32
 		for i in range(100):
 			num.add(i+1)
 		mid = num.mid()
 		div = num.div()
-		#assert 1 == 1
+		print(mid, div)
 		assert mid>=50 and mid<=52
 		assert div>30.5 and div<32
 
