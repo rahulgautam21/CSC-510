@@ -54,6 +54,6 @@ class TestsForLua(unittest.TestCase):
 	def test_data(self):
 		d = Data("data/auto93.csv")
 		l = list(d.cols.y)
- 		for x in l:
+		for x in l:
 			print(x)
 		return True
