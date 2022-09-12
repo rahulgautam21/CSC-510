@@ -2,6 +2,7 @@ from src.main import *
 from src.sym import Sym
 from src.num import Num
 from src.main import the
+from src.data import Data
 import unittest
 
 class TestsForLua(unittest.TestCase):
@@ -41,3 +42,12 @@ class TestsForLua(unittest.TestCase):
 		for i in range(1000):
 			num.add(i+1)
 		assert len(num._has)==32
+		
+	def test_stats(self):
+        data = Data("data/data1.csv")
+        print('xmid=', data.stats(2, data.cols.x, "mid"))
+        print('xdiv=', data.stats(3, data.cols.x, "div"))
+        print('ymid=', data.stats(2, data.cols.y, "mid"))
+        print('ymid=', data.stats(3, data.cols.y, "div"))
+        return True
+
