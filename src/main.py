@@ -18,8 +18,7 @@ if __name__ == '__main__':
     the['csvFilePath'] = '../data/data1.csv'
     the['nums'] = 512
     the['seed'] = 10019
-#     the['seperator'] = ',]]'
-    the['seperator'] = ','
+    the['seperator'] = ',]]'
     args_dict = {}
     for index, opt in enumerate(argv):
         if opt in ("-h","--help"):
