@@ -51,9 +51,9 @@ class TestsForLua(unittest.TestCase):
 		print('ymid=', data.stats(3, data.cols.y, "div"))
 		return True
 
-# 	def test_data(self):
-#         d = Data("data/auto93.csv")
-# 		l = list(d.cols.y)
-# 		for x in l:
-# 			print(x)
-#         return True
+ 	def test_data(self):
+		d = Data("data/auto93.csv")
+ 		l = list(d.cols.y)
+ 		for x in l:
+ 			print(x)
+		return True
