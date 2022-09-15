@@ -1,11 +1,13 @@
-from sys import argv,exit
+from sys import argv, exit
 import argparse
 
-the={"nums":512}
+the = {"nums": 512, "seperator": ','}
 
 # Update dict with args dict.
 # Technically we do not need this function as we are handling this with defaults
 # However since we require this as parts of the requirements thus adding it
+
+
 def cli(args_dict):
     global the
     updated_dict = dict(list(the.items()) + list(args_dict.items()))
@@ -21,8 +23,8 @@ if __name__ == '__main__':
     the['seperator'] = ',]]'
     args_dict = {}
     for index, opt in enumerate(argv):
-        if opt in ("-h","--help"):
-            print( '''
+        if opt in ("-h", "--help"):
+            print('''
                 OPTIONS:
                 -e  --eg        start-up example                      = nothing
                 -d  --dump      on test failure, exit with stack dump = false
@@ -36,9 +38,10 @@ if __name__ == '__main__':
         if opt in ("-e", "--eg"):
             args_dict["eg"] = argv[index+1].strip()
         if opt in ("-d", "--dump"):
-            args_dict["dump"] = True if argv[index+1].strip().lower() == 'true' else False
+            args_dict["dump"] = True if argv[index +
+                                             1].strip().lower() == 'true' else False
         if opt in ("-f", "--file"):
-            args_dict["file"] = argv[index+1].strip()
+            args_dict["csvFilePath"] = argv[index+1].strip()
         if opt in ("-n", "--nums"):
             args_dict["nums"] = int(argv[index+1].strip())
         if opt in ("-s", "--seed"):
