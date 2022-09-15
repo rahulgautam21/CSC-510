@@ -1,15 +1,39 @@
 import re
 
-# Common or utility functions go here
-def push(t, k):
-	keyss = sorted(t.keys())
-	t[len(keyss)] = k
-	return k
+# # Common or utility functions go here
+# def push(t, k):
+# 	keyss = sorted(t.keys())
+# 	t[len(keyss)] = k
+# 	return k
 
+def coerce(s):
+    def isNumber(string):
+        try:
+            float(string)
+            return True
+        except ValueError:
+            return False 
+
+    def fun1(s1):
+        if s1 == "true":
+            return True
+        elif s1 == "false":
+            return False
+        return s1
+    
+    if isNumber(s):
+        return int(s)  
+    else:
+        return fun1(s) or None
 
 def csv():
 	"""Call fun on each row. Row cells are divided in the.seperator"""
 	pass
+
+
+def push(t, x):
+    t.append(x)
+    return x
 
 
 # Strings
