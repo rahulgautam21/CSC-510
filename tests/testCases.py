@@ -1,8 +1,9 @@
-from src.data import Data
-from src.num import Num
-from src.main import the, cli
-from src.sym import Sym
-
+import sys
+sys.path.insert(0, '../src')
+from data import Data
+from num import Num
+from main import the, cli
+from sym import Sym
 
 def test_bignum():
     num = Num()
@@ -13,7 +14,7 @@ def test_bignum():
 
 
 def test_data():
-    d = Data("data/auto93.csv")
+    d = Data("../data/auto93.csv")
     l = list(d.cols.y)
     for x in l:
         print(x)
@@ -35,7 +36,7 @@ def test_num():
 
 
 def test_stats():
-    data = Data("data/auto93.csv")
+    data = Data("../data/auto93.csv")
     print('xmid=', data.stats(2, data.cols.x, "mid"))
     print('xdiv=', data.stats(3, data.cols.x, "div"))
     print('ymid=', data.stats(2, data.cols.y, "mid"))
@@ -61,4 +62,7 @@ def test_the():
     # Mimicking that we add something to cmd dict
     dict = {'nums': 32, 'seperator': ';'}
     the = cli(dict)
-    return the == dict
+    if(the == dict):
+        return 0
+    else:
+        return 1

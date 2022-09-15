@@ -1,5 +1,5 @@
-from src.num import Num
-from src.sym import Sym
+from num import Num
+from sym import Sym
 
 # Singleton object
 
