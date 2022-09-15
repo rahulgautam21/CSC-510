@@ -4,6 +4,7 @@ from data import Data
 from num import Num
 from main import the, cli
 from sym import Sym
+from utils import oo,csv
 
 def test_bignum():
     num = Num()
@@ -66,3 +67,17 @@ def test_the():
         return 0
     else:
         return 1
+
+
+def test_csv():
+    global n
+    n = 0
+    def func_row(row):
+        global n
+        n = n + 1
+        if n > 10:
+            return n
+        else:
+            return oo(row)
+    csv('../data/auto93.csv', func_row)
+    return 0

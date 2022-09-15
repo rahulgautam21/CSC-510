@@ -9,8 +9,9 @@ def main():
     result += test_bignum()
     result += test_data()
     result += test_stats()
+    result += test_csv()
     print(result, " tests failed")
-    print(6 - result, " tests passed")
+    print(7 - result, " tests passed")
     return result
 
 
