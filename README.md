@@ -9,7 +9,7 @@
 [![Open Issues](https://img.shields.io/github/issues/rahulgautam21/CSC-510)](https://github.com/rahulgautam21/CSC-510/issues)
 [![Pull Requests](https://img.shields.io/github/issues-pr/rahulgautam21/CSC-510)](https://github.com/rahulgautam21/CSC-510/pulls)
 ![Supports Python](https://img.shields.io/pypi/pyversions/pytest)
-
+[![unit test](https://github.com/rahulgautam21/csc510_hw/actions/workflows/github-actions-build.yml/badge.svg)](https://github.com/rahulgautam21/csc510_hw/actions/workflows/github-actions-build.yml) [![unit test](https://byob.yarr.is/rahulgautam21/csc510_hw/coverage_report)](https://github.com/rahulgautam21/csc510_hw/actions/workflows/github-actions-build.yml)
 
 This is the code repo for Software Engineering group 40, a group of 6 people - Srilekha, Chetana, Shreya, Sarika, Rahul, Shubham.
 
