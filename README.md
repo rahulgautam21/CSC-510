@@ -9,7 +9,7 @@
 [![Open Issues](https://img.shields.io/github/issues/rahulgautam21/CSC-510)](https://github.com/rahulgautam21/CSC-510/issues)
 [![Pull Requests](https://img.shields.io/github/issues-pr/rahulgautam21/CSC-510)](https://github.com/rahulgautam21/CSC-510/pulls)
 ![Supports Python](https://img.shields.io/pypi/pyversions/pytest)
-[![unit test](https://img.shields.io/badge/Total%20Coverage-Coverage-lightgrey)](https://github.com/rahulgautam21/CSC-510/actions/workflows/github-actions-build.yml)
+[![unit test](https://byob.yarr.is/rahulgautam21/CSC-510/coverage_report)](https://github.com/rahulgautam21/CSC-510/actions/workflows/github-actions-build.yml)
 
 
 
