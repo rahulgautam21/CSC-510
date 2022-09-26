@@ -1,6 +1,6 @@
 import math
 from collections import OrderedDict
-from main import the
+from src.utils import the
 import random
 
 

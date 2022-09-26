@@ -36,13 +36,11 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        cd tests
-        python testEngine.py
+        python csv.py -e ALL
     - name: Generate Coverage report
       run: |
         pip install coverage
-        cd tests
-        coverage run testEngine.py
+        coverage run csv.py -e ALL
         coverage xml
     - name: Codecov
       uses: codecov/codecov-action@v3.1.1
