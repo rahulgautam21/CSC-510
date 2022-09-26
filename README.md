@@ -10,7 +10,6 @@
 [![Pull Requests](https://img.shields.io/github/issues-pr/rahulgautam21/CSC-510)](https://github.com/rahulgautam21/CSC-510/pulls)
 ![Supports Python](https://img.shields.io/pypi/pyversions/pytest)
 
-
 This is the code repo for Software Engineering group 40, a group of 6 people - Srilekha, Chetana, Shreya, Sarika, Rahul, Shubham.
 
 The goal of this repo is to understand the significance and learning to use the following files in a Code Repository:
