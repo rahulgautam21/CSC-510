@@ -38,13 +38,56 @@ Execute the following command:
 
 ### Command Line Arguments:
 
--e  --eg        start-up example                      = nothing
--d  --dump      on test failure, exit with stack dump = false
--f  --file      file with csv data                    = ../data/auto93.csv
--h  --help      show help                             = false
--n  --nums      number of nums to keep                = 512
--s  --seed      random number seed                    = 10019
--S  --seperator feild seperator                       = ,
+-e  --eg        start-up example                      = nothing  
+-d  --dump      on test failure, exit with stack dump = false  
+-f  --file      file with csv data                    = ../data/auto93.csv  
+-h  --help      show help                             = false  
+-n  --nums      number of nums to keep                = 512  
+-s  --seed      random number seed                    = 10019  
+-S  --seperator feild seperator                       = ,  
+
+### Sample Output
+
+``` 
+python csv.py -e ALL
+
+−−−−−−−−−−−−−−−−−----------------−−−−−−−−−−−−−−−−−−
+!!!!!! PASS test_bignum True
+
+−−−−−−−−−−−−−−−−−----------------−−−−−−−−−−−−−−−−−−
+['Clndrs', 'Volume', 'Hp:', 'Lbs-', 'Acc+', 'Model', 'origin', 'Mpg+']
+[8.0, 304.0, 193.0, 4732.0, 18.5, 70.0, 1.0, 10.0]
+[8.0, 360.0, 215.0, 4615.0, 14.0, 70.0, 1.0, 10.0]
+[8.0, 307.0, 200.0, 4376.0, 15.0, 70.0, 1.0, 10.0]
+[8.0, 318.0, 210.0, 4382.0, 13.5, 70.0, 1.0, 10.0]
+[8.0, 429.0, 208.0, 4633.0, 11.0, 72.0, 1.0, 10.0]
+[8.0, 400.0, 150.0, 4997.0, 14.0, 73.0, 1.0, 10.0]
+[8.0, 350.0, 180.0, 3664.0, 11.0, 73.0, 1.0, 10.0]
+[8.0, 383.0, 180.0, 4955.0, 11.5, 71.0, 1.0, 10.0]
+[8.0, 350.0, 160.0, 4456.0, 13.5, 72.0, 1.0, 10.0]
+!!!!!! PASS test_csv True
+
+−−−−−−−−−−−−−−−−−----------------−−−−−−−−−−−−−−−−−−
+!!!!!! PASS test_data True
+
+−−−−−−−−−−−−−−−−−----------------−−−−−−−−−−−−−−−−−−
+51 31.007751937984494
+!!!!!! PASS test_num True
+
+−−−−−−−−−−−−−−−−−----------------−−−−−−−−−−−−−−−−−−
+xmid= {'Clndrs': 4, 'Volume': 120, 'Model': 72, 'origin': 1.0}
+xdiv= {'Clndrs': -1.55, 'Volume': -98.062, 'Model': 3.876, 'origin': 1.327}
+ymid= {'Lbs-': 2506, 'Acc+': 14, 'Mpg+': 20}
+ymid= {'Lbs-': -817.442, 'Acc+': 1.163, 'Mpg+': 7.752}
+!!!!!! PASS test_stats True
+
+−−−−−−−−−−−−−−−−−----------------−−−−−−−−−−−−−−−−−−
+!!!!!! PASS test_sym True
+
+−−−−−−−−−−−−−−−−−----------------−−−−−−−−−−−−−−−−−−
+!!!!!! PASS test_the True
+!!!!!! PASS ALL True
+```
 
 ### License:
 This project is licensed under the terms of the MIT license. Please check [License](https://github.com/rahulgautam21/CSC-510/blob/main/LICENSE) for more details.
