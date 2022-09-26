@@ -38,3 +38,11 @@ jobs:
       run: |
         cd tests
         python testEngine.py
+    - name: Generate Coverage report
+      run: |
+        pip install coverage
+        cd tests
+        coverage run testEngine.py
+        coverage xml
+    - name: Codecov
+      uses: codecov/codecov-action@v3.1.1

@@ -9,7 +9,7 @@
 [![Open Issues](https://img.shields.io/github/issues/rahulgautam21/CSC-510)](https://github.com/rahulgautam21/CSC-510/issues)
 [![Pull Requests](https://img.shields.io/github/issues-pr/rahulgautam21/CSC-510)](https://github.com/rahulgautam21/CSC-510/pulls)
 ![Supports Python](https://img.shields.io/pypi/pyversions/pytest)
-
+[![codecov](https://codecov.io/gh/rahulgautam21/CSC-510/branch/main/graph/badge.svg?token=6QCOL7VZ2T)](https://codecov.io/gh/rahulgautam21/CSC-510)
 
 This is the code repo for Software Engineering group 40, a group of 6 people - Srilekha, Chetana, Shreya, Sarika, Rahul, Shubham.
 
