@@ -11,32 +11,42 @@
 ![Supports Python](https://img.shields.io/pypi/pyversions/pytest)
 [![codecov](https://codecov.io/gh/rahulgautam21/CSC-510/branch/main/graph/badge.svg?token=6QCOL7VZ2T)](https://codecov.io/gh/rahulgautam21/CSC-510)
 
-This is the code repo for Software Engineering group 40, a group of 6 people - Srilekha, Chetana, Shreya, Sarika, Rahul, Shubham.
+# Fall 2022 CSC 510 (Group 40)
+This is the code repo for Software Engineering group 40, a group of 6 people - Srilekha, Chetana, Shreya, Sarika, Rahul, Shubham.This repository was developed to demonstrate the various ideas we acquired while taking CSC 510 in the Fall of 22 at NC State University.
 
-The goal of this repo is to understand the significance and learning to use the following files in a Code Repository:
-.gitignore
-.travis.yml
-CITATION.md
-CODE-OF-CONDUCT.md
-CONTRIBUTING.md
-RELEASE-NOTES.md
-.editorconfig
-.gitattributes
-SECURITY.md
-INSTALL.md
-LICENSE.md
-README.md
-Local env variables file
-setup.py
-requirements.txt
-package.json
-data/
-  README.md
-test/
-  README.md
-code/
-  _init_.py
+## Introduction
+A Python program to read CSV files and provide column summaries (medians and standard deviation for numerics; mode and entropy for symbolic columns). The goal of this project is to translate the lua-to-python conversion of the source code found at [link](https://github.com/txt/se22/blob/main/etc/pdf/csv.pdf).
 
-For this purpose, we are going with implementation of a basic calculator.
+## Homeworks
+|Homework| Status| Task|
+|:------:|:------|:------|
+|HW2     |&check;|Get this going for the `Num` and `Sym` class (below) and the tests cases `the`, `sym`, `num`, `bignum`.|
+|HW3     |&check;|Get this going for the `Cols`, `Row`, `Data` class and the test cases `eg.csv, eg.data, eg.stats`.|
+|HW4     |&check;|Add all the bling from HW1. Also, add post-commit hooks to auto run all the test cases, the code coverage checks (if your language supports then), and the documentation generators.  For more on what kinds of documentation is acceptable, see [the web site from lecture1](https://user-images.githubusercontent.com/29195/130997647-d933884e-8e5c-4f0c-a367-6a5d69bb1df1.png).|
+|HW5     |&check;|For five other groups from cs510 (picked at random), apply the Project1 [rubric](https://github.com/txt/se22/blob/main/docs/proj1.md#rubric).  Important note: whatever scores you offer, these will **not** change the other group's scores.|
 
-Refer to INSTALL.md for cloning and running this project.
+## Installation
+To run the following source code, make sure you have the `auto93.csv` in the data folder.
+
+For installing the additional requirements, execute the following command
+
+``` pip install -r requirements.txt ```
+
+Execute the following command:
+
+``` python csv.py -e ALL```
+
+### Command Line Arguments:
+
+-e  --eg        start-up example                      = nothing
+-d  --dump      on test failure, exit with stack dump = false
+-f  --file      file with csv data                    = ../data/auto93.csv
+-h  --help      show help                             = false
+-n  --nums      number of nums to keep                = 512
+-s  --seed      random number seed                    = 10019
+-S  --seperator feild seperator                       = ,
+
+### License:
+This project is licensed under the terms of the MIT license. Please check [License](https://github.com/rahulgautam21/CSC-510/blob/main/LICENSE) for more details.
+
+

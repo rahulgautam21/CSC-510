@@ -1,7 +1,6 @@
-from col import Cols
-from main import the
-from row import Row
-from utils import push, csv
+from src.col import Cols
+from src.row import Row
+from src.utils import push, csv, the
 
 
 class Data(object):
