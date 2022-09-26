@@ -44,5 +44,5 @@ jobs:
         cd tests
         coverage run testEngine.py
         coverage xml
-    - name: Upload Coverage to Codecov
-      uses: codecov/codecov-action@v2
+    - name: Codecov
+      uses: codecov/codecov-action@v3.1.1
