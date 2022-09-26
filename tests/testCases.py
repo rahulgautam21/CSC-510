@@ -1,10 +1,10 @@
+from src.data import Data
+from src.num import Num
+from src.sym import Sym
+from src.utils import oo, csv, msg, the, cli
+from tests import testCases
 import sys
-sys.path.insert(0, '../src')
-from data import Data
-from num import Num
-from main import the, cli
-from sym import Sym
-from utils import oo,csv
+
 
 def test_bignum():
     num = Num()
