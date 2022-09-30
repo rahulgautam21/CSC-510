@@ -1,7 +1,9 @@
 
-** Evalation of Group 7 **
+## Evalation of Group 7
 
 GitHub Link : [Group 7](https://github.com/yzhu27/CSVAnalyser)
+
+Total Score : 43
 
 |<div style="width:256px">Notes</div>|Assessment|Evidence|
 |--------|------|-------|
@@ -35,5 +37,3 @@ GitHub Link : [Group 7](https://github.com/yzhu27/CSVAnalyser)
 |Evidence that the whole team is using the same tools (e.g. tutor can ask anyone to share screen, they demonstrate the system running on their computer)|0|Not Applicable|
 |Evidence that the members of the team are working across multiple places in the code base|2|[Contributors](https://github.com/yzhu27/CSVAnalyser/graphs/contributors)|
 |Short release cycles|0|Not Applicable|
-
-Total Score : 43
