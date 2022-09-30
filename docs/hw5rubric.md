@@ -128,7 +128,7 @@
 |Use of  style checkers|0|Not present|
 |Use of code  formatters.|0|Not present|
 |Use of syntax checkers.|0|Not Present|
-|Use of code coverage|0|No Code Coverage|
+|Use of code coverage|3| Good code coverage 91%|
 |Other automated analysis tools|0|N/A|
 |Test cases exist|3|[Test](https://github.com/sam16222/CSC510_43/tree/main/tests)|
 |Test cases are routinely executed|3|Present in above mentioned file|
@@ -164,12 +164,12 @@
 |Are e-mails to your support e-mail address received by more than one person?|-|N/A| 
 |Does your project have a ticketing system to manage bug reports and feature requests?|-|N/A|
 |Is your project's ticketing system publicly visible to your users, so they can view bug reports and feature requests?|-|N/A|
-|Is your software’s architecture and design modular?|3||
-|Does your software use an accepted coding standard or convention?|2||
+|Is your software’s architecture and design modular?|2||
+|Does your software use an accepted coding standard or convention?|3||
 |Does your software allow data to be imported and exported using open data formats?|3||
 |Does your software allow communications using open communications protocols?|0||
 |Is your software cross-platform compatible?|3|Yes. Only requires python installed on the computer|
-|Does your software adhere to appropriate accessibility conventions or standards?|2||
+|Does your software adhere to appropriate accessibility conventions or standards?|3||
 |Does your documentation adhere to appropriate accessibility conventions or standards?|2||
 |Is your source code stored in a repository under revision control?|3||
 |Is each source code release a snapshot of the repository?|3||
@@ -184,10 +184,10 @@
 |Does your software list the web address, and licences for all third-party dependencies and say whether the dependencies are mandatory or optional?|3||
 |Can you download dependencies using a dependency management tool or package manager?|3||
 |Do you have tests that can be run after your software has been built or deployed to show whether the build or deployment has been successful?|3||
-|Do you have an automated test suite for your software?|2|Uses pytest instead of Test Engine.|
+|Do you have an automated test suite for your software?|3||
 |Do you have a framework to periodically (e.g. nightly) run your tests on the latest version of the source code?|-|N/A|
 |Do you use continuous integration, automatically running tests whenever changes are made to your source code?|3||
-|Are your test results publicly visible?|3||
+|Are your test results publicly visible?|0|Only in errors|
 |Are all manually-run tests documented?|0|No comments.|
 |Does your project have resources (e.g. blog, Twitter, RSS feed, Facebook page, wiki, mailing list) that are regularly updated with information about your software?|-|N/A|
 |Does your website state how many projects and users are associated with your project?|0||
