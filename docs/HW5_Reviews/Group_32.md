@@ -1,6 +1,6 @@
 ## Evalation of Group 32
 
-GitHub Link : [Group 7]([https://github.com/yzhu27/CSVAnalyser](https://github.com/sohambapat/SWE-Group-32-Assignments))
+GitHub Link : [Group 32]([https://github.com/yzhu27/CSVAnalyser](https://github.com/sohambapat/SWE-Group-32-Assignments))
 
 Total Score : 37
 
