@@ -136,7 +136,7 @@
 |Issues are discussed before they are closed|3|4 Isses closed|
 |Chat channel: exists|0|N/A|
 |Test cases: a large proportion of the issues related to handling failing cases.|3||
-|Evidence that the whole team is using the same tools: everyone can get to all tools and files|3|We can clearly see that entire codebase has been written in Python. Everyone has the same access to the repository and also have equal access to committing directly to the main branch.|
+|Evidence that the whole team is using the same tools: everyone can get to all tools and files|3||
 |Evidence that the whole team is using the same tools (e.g. config files in the repo, updated by lots of different people)|3||
 |Evidence that the whole team is using the same tools (e.g. tutor can ask anyone to share screen, they demonstrate the system running on their computer)|3||
 |Evidence that the members of the team are working across multiple places in the code base|3|[Contributers](https://github.com/sam16222/CSC510_43/graphs/contributors)|
@@ -168,7 +168,7 @@
 |Does your software use an accepted coding standard or convention?|3||
 |Does your software allow data to be imported and exported using open data formats?|3||
 |Does your software allow communications using open communications protocols?|0||
-|Is your software cross-platform compatible?|3|Yes. Only requires python installed on the computer|
+|Is your software cross-platform compatible?|3|Yes with requiremens from requirements.txt |
 |Does your software adhere to appropriate accessibility conventions or standards?|3||
 |Does your documentation adhere to appropriate accessibility conventions or standards?|2||
 |Is your source code stored in a repository under revision control?|3||
