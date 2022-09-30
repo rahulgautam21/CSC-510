@@ -1,6 +1,6 @@
 ## Evalation of Group 32
 
-GitHub Link : [Group 32]([https://github.com/yzhu27/CSVAnalyser](https://github.com/sohambapat/SWE-Group-32-Assignments))
+GitHub Link : [Group 32](https://github.com/sohambapat/SWE-Group-32-Assignments)
 
 Total Score : 37
 
@@ -13,7 +13,7 @@ Total Score : 37
 |Number of commits: by different people|2|[Contributors](https://github.com/sohambapat/SWE-Group-32-Assignments/graphs/contributors)|
 |Issues reports: there are many|0|Not Applicable|
 |Issues are being closed|0|Not Applicable|
-|DOI badge: exists|3|Present in [README]([https://github.com/yzhu27/CSVAnalyser](https://github.com/sohambapat/SWE-Group-32-Assignments))|
+|DOI badge: exists|3|Present in [README](https://github.com/sohambapat/SWE-Group-32-Assignments)|
 |Docs: docs generated, format not ugly|3|[Docs](https://sohambapat.github.io/SWE-Group-32-Assignments/src/) have been generated well|
 |Docs: what: point descriptions of each class/function (in isolation)|3|Descriptions present|
 |Docs: how: for common use cases X,Y,Z mini-tutorials showing worked examples on how to do X,Y,Z|0|Not Applicable|
