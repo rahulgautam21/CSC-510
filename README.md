@@ -93,7 +93,7 @@ ymid= {'Lbs-': -817.442, 'Acc+': 1.163, 'Mpg+': 7.752}
 [Reviews](https://github.com/rahulgautam21/CSC-510/tree/main/docs/HW5_Reviews)
 
 ### Documentation 
-[Docs](https://github.com/rahulgautam21/CSC-510/tree/main/docs/HW5_Reviews)
+[Docs](https://rahulgautam21.github.io/CSC-510/)
 
 ### License:
 This project is licensed under the terms of the MIT license. Please check [License](https://github.com/rahulgautam21/CSC-510/blob/main/LICENSE) for more details.
